@@ -1,0 +1,145 @@
+{
+  "control_seed": 20270913,
+  "no_training": true,
+  "k1_permutations": {
+    "MHEALTH": "all 3! minus identity (5)",
+    "HAPT": "all 2! minus identity (1)"
+  },
+  "grid_orderings": [
+    "reverse",
+    "shuffle_A",
+    "shuffle_B"
+  ],
+  "k_values": [
+    1,
+    2,
+    3,
+    5,
+    8,
+    16,
+    32,
+    64,
+    100
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "operators": [
+    "late_product",
+    "late_mean",
+    "cpsa"
+  ],
+  "k1_by_cell": {
+    "MHEALTH/late_product": {
+      "n_comparisons": 15,
+      "n_examples": 1987,
+      "max_linf": 6.556510925292969e-07,
+      "mean_abs": 8.151823662627966e-10,
+      "pred_changes": 0,
+      "pred_total": 29805
+    },
+    "MHEALTH/late_mean": {
+      "n_comparisons": 15,
+      "n_examples": 1987,
+      "max_linf": 1.1920928955078125e-07,
+      "mean_abs": 1.7784558178961688e-09,
+      "pred_changes": 0,
+      "pred_total": 29805
+    },
+    "MHEALTH/cpsa": {
+      "n_comparisons": 15,
+      "n_examples": 1987,
+      "max_linf": 2.384185791015625e-07,
+      "mean_abs": 2.7047955248650958e-09,
+      "pred_changes": 0,
+      "pred_total": 29805
+    },
+    "HAPT/late_product": {
+      "n_comparisons": 3,
+      "n_examples": 3162,
+      "max_linf": 0.0,
+      "mean_abs": 0.0,
+      "pred_changes": 0,
+      "pred_total": 9486
+    },
+    "HAPT/late_mean": {
+      "n_comparisons": 3,
+      "n_examples": 3162,
+      "max_linf": 0.0,
+      "mean_abs": 0.0,
+      "pred_changes": 0,
+      "pred_total": 9486
+    },
+    "HAPT/cpsa": {
+      "n_comparisons": 3,
+      "n_examples": 3162,
+      "max_linf": 0.0,
+      "mean_abs": 0.0,
+      "pred_changes": 0,
+      "pred_total": 9486
+    }
+  },
+  "grid": {
+    "datasets": [
+      "MHEALTH",
+      "HAPT"
+    ],
+    "mhealth_sources": [
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "hapt_sources": [
+      "M1",
+      "M2"
+    ],
+    "operators": [
+      "late_product",
+      "late_mean",
+      "cpsa"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "k": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      16,
+      32,
+      64,
+      100
+    ],
+    "orderings_per_multiset": [
+      "reverse",
+      "shuffle_A",
+      "shuffle_B"
+    ],
+    "global_max_linf": 5.1081180572509766e-05,
+    "global_mean_abs": 2.278114098867205e-09,
+    "ordering_only_pred_flips": 0,
+    "n_comparisons": 1179
+  },
+  "global_max_linf_all_controls": 5.1081180572509766e-05,
+  "global_ordering_only_pred_flips": 0,
+  "k1_n_examples": {
+    "MHEALTH": 1987,
+    "HAPT": 3162
+  },
+  "gate2_cache_hashes_checked": {
+    "0": "ee66750753d8ddd5caae55310f713003ce91abb852dbe2a0e334e8c6e2abbacd",
+    "1": "a3e3b7a0c7d1076057afe9117987a105acbd573329c6a38166bbede383c33780",
+    "2": "a23a4ca5cba5d015709944c4e095b8f79c22e541dbe942bd05a509de3b042d15"
+  },
+  "hapt_cache_hashes_checked": {
+    "0": "65cb0613258abc6b89dde0b4868f2762b22b96240f3d4ca2fd6ad71ffe94b63b",
+    "1": "4bc1f4dd3b77013561a433ff6d0d2fd47a92f341fb065596e3d68fc2da036f18",
+    "2": "6ea7395e6dcb45ae299e1dbc17277ddaaf3d2abfe482b679333d1fd1beeb650a"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "gate": "GATE 6",
+  "protocol_id": "hapt_multiplicity_replication_v1",
+  "written_before_any_k_gt_1_result": true,
+  "judgment_level": "operator-mechanism, not universal task-performance deterioration",
+  "inputs": {
+    "p1_test": "research/hapt_multiplicity/caches/seed{s}.npz",
+    "p2_test": "research/hapt_multiplicity/caches/seed{s}.npz",
+    "y_test": "research/hapt_multiplicity/caches/seed{s}.npz",
+    "subject_test": "research/hapt_multiplicity/caches/seed{s}.npz",
+    "cpsa": "research/hapt_multiplicity/results/checkpoints/seed{s}_cpsa.pt",
+    "no_training": true,
+    "no_regenerated_posteriors_except_nondestructive_replay_check": true
+  },
+  "matrix": {
+    "seeds": [0, 1, 2],
+    "sources": ["M1", "M2"],
+    "source_names": {
+      "M1": "accelerometer-family engineered-feature posterior",
+      "M2": "gyroscope-family engineered-feature posterior"
+    },
+    "k": [1, 2, 3, 5, 8, 16, 32, 64, 100],
+    "k_definition": "total exact copies of the duplicated source",
+    "k1_tokens": "[p1, p2]",
+    "k_gt_1_tokens": "k copies of pj plus one copy of the other source",
+    "operators": ["late_product", "late_mean", "cpsa"],
+    "n_rows": 162
+  },
+  "claims": {
+    "R1_output_sensitivity": "changing k may change fused posteriors; evaluated by L1(Fk,F1) and flip rate",
+    "R2_late_mean_law": "||Fk-pj||_1 = 2/(k+1) ||F1-pj||_1; max residual <= 1e-5",
+    "R3_late_product_concentration": "Gate-3 LP-limit reused; finite-k alignment only; 100 != infinity",
+    "R4_cpsa_duplicate_takeover": "F(D_j,k) -> pj; report Aj(k) and L1(Fk,pj); no required rate or monotonicity",
+    "R5_task_harm_empirical": "accuracy/calibration need not worsen; report improvements"
+  },
+  "mean_law_tolerance": 1e-5,
+  "k1_must_match_gate5_clean_outputs": true,
+  "no_source_perturbation": true,
+  "no_manuscript_edit": true
+}

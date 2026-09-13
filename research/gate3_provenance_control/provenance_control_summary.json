@@ -1,0 +1,110 @@
+{
+  "n_conditions": 405,
+  "datasets": [
+    "MHEALTH",
+    "HAPT"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "sources": {
+    "MHEALTH": [
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "HAPT": [
+      "M1",
+      "M2"
+    ]
+  },
+  "operators": [
+    "late_product",
+    "late_mean",
+    "cpsa"
+  ],
+  "k": [
+    1,
+    2,
+    3,
+    5,
+    8,
+    16,
+    32,
+    64,
+    100
+  ],
+  "global_max_mean_l1": 0.0,
+  "global_max_per_example_l1": 0.0,
+  "global_max_elementwise_abs": 0.0,
+  "total_prediction_flips": 0,
+  "max_flip_rate": 0.0,
+  "worst_mean_l1": {
+    "dataset": "MHEALTH",
+    "seed": 0,
+    "source": "M1",
+    "operator": "late_product",
+    "k": 1,
+    "mean_l1_ctrl_vs_clean": 0.0,
+    "max_l1_ctrl_vs_clean": 0.0,
+    "max_abs_ctrl_vs_clean": 0.0,
+    "flip_rate": 0.0,
+    "flip_count": 0,
+    "n_test": 1987
+  },
+  "worst_per_example_l1": {
+    "dataset": "MHEALTH",
+    "seed": 0,
+    "source": "M1",
+    "operator": "late_product",
+    "k": 1,
+    "mean_l1_ctrl_vs_clean": 0.0,
+    "max_l1_ctrl_vs_clean": 0.0,
+    "max_abs_ctrl_vs_clean": 0.0,
+    "flip_rate": 0.0,
+    "flip_count": 0,
+    "n_test": 1987
+  },
+  "worst_elementwise_abs": {
+    "dataset": "MHEALTH",
+    "seed": 0,
+    "source": "M1",
+    "operator": "late_product",
+    "k": 1,
+    "mean_l1_ctrl_vs_clean": 0.0,
+    "max_l1_ctrl_vs_clean": 0.0,
+    "max_abs_ctrl_vs_clean": 0.0,
+    "flip_rate": 0.0,
+    "flip_count": 0,
+    "n_test": 1987
+  },
+  "by_operator": {
+    "late_product": {
+      "max_mean_l1": 0.0,
+      "max_per_example_l1": 0.0,
+      "max_elementwise_abs": 0.0,
+      "total_flips": 0
+    },
+    "late_mean": {
+      "max_mean_l1": 0.0,
+      "max_per_example_l1": 0.0,
+      "max_elementwise_abs": 0.0,
+      "total_flips": 0
+    },
+    "cpsa": {
+      "max_mean_l1": 0.0,
+      "max_per_example_l1": 0.0,
+      "max_elementwise_abs": 0.0,
+      "total_flips": 0
+    }
+  },
+  "regression_max_abs_discrepancy": 5.462521202037607e-08,
+  "regression_n_compared": 180,
+  "manuscript_table1_rounding_mismatches": [],
+  "assertion_failures": 0,
+  "collapse_tol": 1e-12,
+  "max_member_identity_dev": 0.0,
+  "max_collapsed_to_original_abs": 0.0
+}

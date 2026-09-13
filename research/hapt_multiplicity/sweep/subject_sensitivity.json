@@ -1,0 +1,69 @@
+{
+  "subjects": [
+    2,
+    4,
+    9,
+    10,
+    12,
+    13,
+    18,
+    20,
+    24
+  ],
+  "rows": [
+    {
+      "subject": 2,
+      "late_product": true,
+      "late_mean": true,
+      "cpsa": true
+    },
+    {
+      "subject": 4,
+      "late_product": true,
+      "late_mean": true,
+      "cpsa": true
+    },
+    {
+      "subject": 9,
+      "late_product": true,
+      "late_mean": true,
+      "cpsa": true
+    },
+    {
+      "subject": 10,
+      "late_product": true,
+      "late_mean": true,
+      "cpsa": true
+    },
+    {
+      "subject": 12,
+      "late_product": true,
+      "late_mean": true,
+      "cpsa": true
+    },
+    {
+      "subject": 13,
+      "late_product": true,
+      "late_mean": true,
+      "cpsa": true
+    },
+    {
+      "subject": 18,
+      "late_product": true,
+      "late_mean": true,
+      "cpsa": true
+    },
+    {
+      "subject": 20,
+      "late_product": true,
+      "late_mean": true,
+      "cpsa": true
+    },
+    {
+      "subject": 24,
+      "late_product": true,
+      "late_mean": true,
+      "cpsa": true
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "dataset": "MHEALTH",
+  "seed": 2,
+  "class_count": 12,
+  "test_n": 1987,
+  "shapes": {
+    "p1_test": [
+      1987,
+      12
+    ],
+    "p2_test": [
+      1987,
+      12
+    ],
+    "p3_test": [
+      1987,
+      12
+    ],
+    "y_test": [
+      1987
+    ],
+    "p1_stuck": [
+      1987,
+      12
+    ],
+    "fused_late_product_A": [
+      1987,
+      12
+    ],
+    "fused_late_product_B": [
+      1987,
+      12
+    ],
+    "fused_late_product_C": [
+      1987,
+      12
+    ],
+    "fused_late_product_D": [
+      1987,
+      12
+    ],
+    "fused_late_product_E": [
+      1987,
+      12
+    ],
+    "fused_cpsa_A": [
+      1987,
+      12
+    ],
+    "fused_cpsa_B": [
+      1987,
+      12
+    ],
+    "fused_cpsa_C": [
+      1987,
+      12
+    ],
+    "fused_cpsa_D": [
+      1987,
+      12
+    ],
+    "fused_cpsa_E": [
+      1987,
+      12
+    ]
+  },
+  "dtypes": {
+    "p1_test": "float32",
+    "p2_test": "float32",
+    "p3_test": "float32",
+    "y_test": "int64",
+    "p1_stuck": "float32",
+    "fused_late_product_A": "float32",
+    "fused_late_product_B": "float32",
+    "fused_late_product_C": "float32",
+    "fused_late_product_D": "float32",
+    "fused_late_product_E": "float32",
+    "fused_cpsa_A": "float32",
+    "fused_cpsa_B": "float32",
+    "fused_cpsa_C": "float32",
+    "fused_cpsa_D": "float32",
+    "fused_cpsa_E": "float32"
+  },
+  "checkpoint_paths": {
+    "enc1": "research/phase4_9of10/results/checkpoints/seed2_enc1.pt",
+    "enc2": "research/phase4_9of10/results/checkpoints/seed2_enc2.pt",
+    "enc3": "research/phase4_9of10/results/checkpoints/seed2_enc3.pt",
+    "cpsa": "research/phase4_9of10/results/checkpoints/seed2_cpsa.pt"
+  },
+  "checkpoint_sha256": {
+    "enc1": "b043d0a02f8f3f38ddb27a44045f12d14ea6fcb6414870fc054e432401514a03",
+    "enc2": "6ae1c67d5f21d36d4a46ea5125155b6be1856d532dfe1c290b79a2d7ffc9a457",
+    "enc3": "8a38f933a20cf93187f239ec592de9395e3db46a17c1a1eeb132e6092c107b7c",
+    "cpsa": "37523b25e98d283d371de8bf26b01333bdf8ac3ff39aea0403badb4d286cf629"
+  },
+  "source_sha256": {
+    "src/models.py": "229670d94b171bb07eeddf2ffad5b438a1d172af2126315d75155dc13f921431",
+    "src/metrics.py": "e692587f4c7803658ea67560340664820dc73f39b3831e5a14273ca4de21bdc8",
+    "src/datasets.py": "398fc8c7b56b071a0c75587d8709022eb0c6ab8d05fc892eb2cc20c6545f541b",
+    "src/phase4/run_joint.py": "71e287ae99e5bcfd6c177922d9b126efbbc006a0ccd66859ac6129c44444563c",
+    "src/phase4/contextual_psa.py": "5714421b041c58c9eb9dce69fc94329c66fcf1d41e0c46e8a207fb5a15310056",
+    "src/phase4/config.py": "d4a1a8f50477ccda582935db1a507be43a87553197f5390ee1d4e52adef22318",
+    "src/multiplicity_replay/replay.py": "38008d79c8671e01d28a9fa9ab3b7743b887be39518c65f898ffff33bf7246f8",
+    "src/multiplicity_replay/cli.py": "87fdc58339fde6febd2a0f0a911eb98d6c3e5a6b18f94730fd7be194c26325a5",
+    "src/multiplicity_replay/hashes.py": "dc5572b998ed13a853f628183929512f3fa81db39c650627fe1f2fc005ddbbf3",
+    "src/multiplicity_replay/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+  },
+  "standardization": "train-only column mean/std via phase4.run_joint.standardize_pair; sd floor 1e-6; applied independently per modality",
+  "stuck_rule": "phase4.run_joint.make_trainref_stuck(X1tr, n_test) = tile X1tr[0] after train-only standardize; encode with frozen enc1",
+  "X1tr0_subject": 1,
+  "X1tr0_recording_file": "UNVERIFIED",
+  "X1tr0_window_start_end": "UNVERIFIED",
+  "window_temporal_provenance": "UNVERIFIED",
+  "device": "cpu",
+  "checkpoint_loading": "torch.load(path, map_location='cpu', weights_only=True)",
+  "creation_command": "PYTHONPATH=src /opt/homebrew/opt/python@3.13/bin/python3.13 -m multiplicity_replay",
+  "phase4_results_role": "immutable reference artifacts",
+  "immutable_reference": "research/phase4_9of10/results"
+}

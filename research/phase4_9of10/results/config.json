@@ -1,0 +1,10 @@
+{
+  "protocol": "phase4_joint_k_x_degrade_v3_approved",
+  "dataset": "MHEALTH",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "k_dup": 5
+}

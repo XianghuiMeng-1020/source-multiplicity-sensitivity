@@ -1,0 +1,2 @@
+556	tBodyGyro-AngleWRTGravity-1
+557	tBodyGyroJerk-AngleWRTGravity-1

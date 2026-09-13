@@ -1,0 +1,68 @@
+{
+  "rows": [
+    {
+      "seed": 0,
+      "operator": "late_product",
+      "max_abs_cross_source_k1": 0.0,
+      "max_abs_vs_gate5": 0.0,
+      "ok": true
+    },
+    {
+      "seed": 0,
+      "operator": "late_mean",
+      "max_abs_cross_source_k1": 0.0,
+      "max_abs_vs_gate5": 0.0,
+      "ok": true
+    },
+    {
+      "seed": 0,
+      "operator": "cpsa",
+      "max_abs_cross_source_k1": 0.0,
+      "max_abs_vs_gate5": 0.0,
+      "ok": true
+    },
+    {
+      "seed": 1,
+      "operator": "late_product",
+      "max_abs_cross_source_k1": 0.0,
+      "max_abs_vs_gate5": 0.0,
+      "ok": true
+    },
+    {
+      "seed": 1,
+      "operator": "late_mean",
+      "max_abs_cross_source_k1": 0.0,
+      "max_abs_vs_gate5": 0.0,
+      "ok": true
+    },
+    {
+      "seed": 1,
+      "operator": "cpsa",
+      "max_abs_cross_source_k1": 0.0,
+      "max_abs_vs_gate5": 0.0,
+      "ok": true
+    },
+    {
+      "seed": 2,
+      "operator": "late_product",
+      "max_abs_cross_source_k1": 0.0,
+      "max_abs_vs_gate5": 0.0,
+      "ok": true
+    },
+    {
+      "seed": 2,
+      "operator": "late_mean",
+      "max_abs_cross_source_k1": 0.0,
+      "max_abs_vs_gate5": 0.0,
+      "ok": true
+    },
+    {
+      "seed": 2,
+      "operator": "cpsa",
+      "max_abs_cross_source_k1": 0.0,
+      "max_abs_vs_gate5": 0.0,
+      "ok": true
+    }
+  ],
+  "ok": true
+}

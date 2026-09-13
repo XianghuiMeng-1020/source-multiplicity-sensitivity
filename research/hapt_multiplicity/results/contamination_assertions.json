@@ -1,0 +1,9 @@
+{
+  "official_test_subjects_never_enter_encoder_training": "PASS",
+  "official_test_rows_never_enter_cpsa_holdout": "PASS",
+  "cpsa_trained_only_on_clean_p1_p2": "PASS",
+  "no_duplicated_tokens_in_training": "PASS",
+  "no_test_derived_preprocessing_fitted": "PASS",
+  "excluded_cross_sensor_features_absent_from_m1_m2": "PASS",
+  "m1_m2_indices_disjoint": "PASS"
+}

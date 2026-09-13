@@ -1,0 +1,182 @@
+[
+  {
+    "source": "M1",
+    "k": 1,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.9084967320261438,
+    "fused_maxprob": 0.961480716864268,
+    "fused_entropy": 0.09502354264259338,
+    "mean_l1_to_k1": 0.0,
+    "flip": 0.0
+  },
+  {
+    "source": "M1",
+    "k": 2,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.9429685852835759,
+    "fused_maxprob": 0.9732463955879211,
+    "fused_entropy": 0.06359203532338142,
+    "mean_l1_to_k1": 0.07200370232264201,
+    "flip": 0.03531520134935695
+  },
+  {
+    "source": "M1",
+    "k": 3,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.9603626396795276,
+    "fused_maxprob": 0.9806667566299438,
+    "fused_entropy": 0.046224637577931084,
+    "mean_l1_to_k1": 0.10922488570213318,
+    "flip": 0.052709255745308874
+  },
+  {
+    "source": "M1",
+    "k": 5,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.9732236980813832,
+    "fused_maxprob": 0.988008956114451,
+    "fused_entropy": 0.029279330124457676,
+    "mean_l1_to_k1": 0.14096848666667938,
+    "flip": 0.06557031414716424
+  },
+  {
+    "source": "M1",
+    "k": 8,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.9827113641155387,
+    "fused_maxprob": 0.9918177723884583,
+    "fused_entropy": 0.01945907063782215,
+    "mean_l1_to_k1": 0.16099999845027924,
+    "flip": 0.07484714315833861
+  },
+  {
+    "source": "M1",
+    "k": 16,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.9921990301496942,
+    "fused_maxprob": 0.9958219130833944,
+    "fused_entropy": 0.009953441408773264,
+    "mean_l1_to_k1": 0.1801132212082545,
+    "flip": 0.08401855365802235
+  },
+  {
+    "source": "M1",
+    "k": 32,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.9956778410288846,
+    "fused_maxprob": 0.9981110095977783,
+    "fused_entropy": 0.004697508489092191,
+    "mean_l1_to_k1": 0.18946396311124167,
+    "flip": 0.08739194602572213
+  },
+  {
+    "source": "M1",
+    "k": 64,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.9983133038161501,
+    "fused_maxprob": 0.9991806546847025,
+    "fused_entropy": 0.0020872984702388444,
+    "mean_l1_to_k1": 0.19444172581036887,
+    "flip": 0.08992199030149695
+  },
+  {
+    "source": "M1",
+    "k": 100,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.998629559350622,
+    "fused_maxprob": 0.9995490312576294,
+    "fused_entropy": 0.0012029387677709262,
+    "mean_l1_to_k1": 0.1955138792594274,
+    "flip": 0.0902382458359688
+  },
+  {
+    "source": "M2",
+    "k": 1,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.7861058401855366,
+    "fused_maxprob": 0.961480716864268,
+    "fused_entropy": 0.09502354264259338,
+    "mean_l1_to_k1": 0.0,
+    "flip": 0.0
+  },
+  {
+    "source": "M2",
+    "k": 2,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.8101412608053975,
+    "fused_maxprob": 0.9717714190483093,
+    "fused_entropy": 0.06981903314590454,
+    "mean_l1_to_k1": 0.07175895820061366,
+    "flip": 0.02888467214842926
+  },
+  {
+    "source": "M2",
+    "k": 3,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.8336495888678052,
+    "fused_maxprob": 0.9747898976008097,
+    "fused_entropy": 0.061251815408468246,
+    "mean_l1_to_k1": 0.12553381671508154,
+    "flip": 0.05450137044064938
+  },
+  {
+    "source": "M2",
+    "k": 5,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.8697027197975965,
+    "fused_maxprob": 0.9797771573066711,
+    "fused_entropy": 0.04855957627296448,
+    "mean_l1_to_k1": 0.20115382969379425,
+    "flip": 0.09139784946236558
+  },
+  {
+    "source": "M2",
+    "k": 8,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.9020662028252161,
+    "fused_maxprob": 0.9858479499816895,
+    "fused_entropy": 0.0347274566690127,
+    "mean_l1_to_k1": 0.26371610164642334,
+    "flip": 0.12239089184060721
+  },
+  {
+    "source": "M2",
+    "k": 16,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.9387518448239511,
+    "fused_maxprob": 0.9911624789237976,
+    "fused_entropy": 0.02140943023065726,
+    "mean_l1_to_k1": 0.33671144644419354,
+    "flip": 0.15760067467847355
+  },
+  {
+    "source": "M2",
+    "k": 32,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.9671094244149273,
+    "fused_maxprob": 0.9949105183283488,
+    "fused_entropy": 0.012062085481981436,
+    "mean_l1_to_k1": 0.38979828357696533,
+    "flip": 0.1842715580855998
+  },
+  {
+    "source": "M2",
+    "k": 64,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.9822896900695762,
+    "fused_maxprob": 0.9974241256713867,
+    "fused_entropy": 0.006091477038959662,
+    "mean_l1_to_k1": 0.4186379313468933,
+    "flip": 0.19839763862534263
+  },
+  {
+    "source": "M2",
+    "k": 100,
+    "unique_argmax": 1.0,
+    "source_top_agreement": 0.9887202192705039,
+    "fused_maxprob": 0.998110314210256,
+    "fused_entropy": 0.004298007503772776,
+    "mean_l1_to_k1": 0.42996566494305927,
+    "flip": 0.20409023824583597
+  }
+]
